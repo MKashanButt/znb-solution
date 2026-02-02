@@ -49,6 +49,7 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
 <body class="bg-white dark:bg-background-dark text-navy-text transition-colors duration-300">
@@ -67,8 +68,44 @@
             <nav class="flex items-center gap-8">
                 <a class="text-navy-text dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors"
                     href="/">Home</a>
-                <a class="text-navy-text dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors"
-                    href="#">Solutions</a>
+                <div x-data="{ open: false }" class="relative">
+                    <!-- Dropdown Button -->
+                    <button @click="open = !open"
+                        class="text-navy-text dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors flex items-center gap-1">
+                        Solutions
+                        <span class="material-symbols-outlined text-[18px]">
+                            arrow_drop_down
+                        </span>
+                    </button>
+
+                    <!-- Dropdown Menu -->
+                    <div x-show="open" @click.outside="open = false"
+                        x-transition:enter="transition ease-out duration-200"
+                        x-transition:enter-start="opacity-0 translate-y-2"
+                        x-transition:enter-end="opacity-100 translate-y-0"
+                        x-transition:leave="transition ease-in duration-150"
+                        x-transition:leave-start="opacity-100 translate-y-0"
+                        x-transition:leave-end="opacity-0 translate-y-2"
+                        class="absolute right-0 mt-2 w-52 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg z-50 py-2">
+                        <a href="/billing-and-rcm"
+                            class="block px-4 py-2 text-sm text-navy-text dark:text-slate-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary rounded-lg">
+                            Billing & RCM
+                        </a>
+                        <a href="/chronic-care-management"
+                            class="block px-4 py-2 text-sm text-navy-text dark:text-slate-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary rounded-lg">
+                            Chronic Care Management
+                        </a>
+                        <a href="/remote-patient-monitoring"
+                            class="block px-4 py-2 text-sm text-navy-text dark:text-slate-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary rounded-lg">
+                            Remote Patient Monitoring
+                        </a>
+                        <a href="/principal-care-management"
+                            class="block px-4 py-2 text-sm text-navy-text dark:text-slate-300 hover:bg-primary/10 dark:hover:bg-primary/20 hover:text-primary rounded-lg">
+                            Principal Care Management
+                        </a>
+                    </div>
+                </div>
+
                 <a class="text-navy-text dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors"
                     href="/who-we-serve">Who We Serve</a>
                 <a class="text-navy-text dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors"
