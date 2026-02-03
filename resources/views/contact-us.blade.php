@@ -173,7 +173,7 @@
                         <p class="text-slate-600 dark:text-slate-400 text-sm mt-2 leading-relaxed">
                             Send us an email and we’ll reply as soon as possible.
                         </p>
-                        <p class="text-primary font-bold mt-4 text-sm">support@yourcompany.com</p>
+                        <p class="text-primary font-bold mt-4 text-sm">support@znbsolutions.com</p>
                     </div>
 
                     <div
@@ -186,7 +186,7 @@
                         <p class="text-slate-600 dark:text-slate-400 text-sm mt-2 leading-relaxed">
                             Prefer talking to a human? We respect that.
                         </p>
-                        <p class="text-primary font-bold mt-4 text-sm">+1 (555) 000-0000</p>
+                        <p class="text-primary font-bold mt-4 text-sm">+1 (510) 290-2229</p>
                     </div>
 
                     <div
@@ -200,8 +200,7 @@
                             Our headquarters location for operations and support.
                         </p>
                         <p class="text-primary font-bold mt-4 text-sm">
-                            123 Healthcare Ave, Suite 100<br />
-                            Dallas, TX 75201
+                            1090 La playa drive Hayward<br /> CA 94545
                         </p>
                     </div>
                 </div>
