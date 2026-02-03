@@ -153,10 +153,8 @@
                 <div>
                     <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-6">Compliance &amp; Legal</h4>
                     <ul class="flex flex-col gap-3">
-                        <li><a class="footer-link" href="#">HIPAA Compliance</a></li>
-                        <li><a class="footer-link" href="#">CLIA Certification</a></li>
-                        <li><a class="footer-link" href="#">Privacy Policy</a></li>
-                        <li><a class="footer-link" href="#">Terms</a></li>
+                        <li>HIPAA Compliance</li>
+                        <li>CLIA Certification</li>
                     </ul>
                 </div>
                 <div class="flex flex-col gap-6">
