@@ -134,16 +134,16 @@
                         <span class="text-xl font-extrabold tracking-tight">ZNB Solution</span>
                     </div>
                     <p class="text-sm leading-relaxed text-gray-400 max-w-xs">
-                        Providing doctors with an all-in-one platform for medical products and lab services, nationwide.
+                        Providing doctors with an all-in-one platform for medical products nationwide.
                     </p>
                 </div>
                 <div>
                     <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-6">Quick Links</h4>
                     <ul class="flex flex-col gap-3">
-                        <li><a class="footer-link" href="#">Home</a></li>
-                        <li><a class="footer-link" href="#">How It Works</a></li>
-                        <li><a class="footer-link" href="#">Services</a></li>
-                        <li><a class="footer-link" href="#">Testimonials</a></li>
+                        <li><a class="footer-link" href="/">Home</a></li>
+                        <li><a class="footer-link" href="/who-we-serve">Who We Serve</a></li>
+                        <li><a class="footer-link" href="/about-us">About Us</a></li>
+                        <li><a class="footer-link" href="/contact-us">Contact Us</a></li>
                     </ul>
                 </div>
                 <div>
@@ -160,11 +160,11 @@
                     <div class="flex flex-col gap-3">
                         <a class="footer-link flex items-center gap-2" href="mailto:support@znbsolution.com">
                             <span class="material-symbols-outlined text-sm">mail</span>
-                            support@znbsolution.com
+                            support@znbsolutions.com
                         </a>
                         <a class="footer-link flex items-center gap-2" href="tel:+18005550123">
                             <span class="material-symbols-outlined text-sm">call</span>
-                            +1 (800) 555-0123
+                            +1 (510) 290-2229
                         </a>
                     </div>
                     <div class="mt-2">
