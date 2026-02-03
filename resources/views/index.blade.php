@@ -17,7 +17,7 @@
                     <div class="flex flex-col gap-6">
                         <h1
                             class="text-navy-text dark:text-white text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] tracking-tight">
-                            All-in-One Medical Products &amp; <span class="text-primary">Lab Testing</span>
+                            All-in-One <span class="text-primary">Medical Products</span>
                         </h1>
                         <p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl leading-relaxed max-w-xl">
                             Direct from your practice to your patients. Streamline your clinic's supply chain and
@@ -25,14 +25,12 @@
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-4">
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                            Book a Demo
-                        </button>
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
-                            See How It Works
-                        </button>
+                        <a href="/about-us">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
+                                See How It Works
+                            </button>
+                        </a>
                     </div>
                     <div class="flex items-center gap-4 pt-4">
                         <div class="flex -space-x-3">
@@ -62,12 +60,9 @@
                             data-alt="Modern medical laboratory with professional equipment"
                             style='background-image: url("https://png.pngtree.com/png-clipart/20240701/original/pngtree-3-professional-smiling-group-doctors-posing-png-image_15452519.png");'>
                             <div class="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent"></div>
-                            <div>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <!-- Trust Bar Section -->
@@ -299,125 +294,7 @@
             </div>
         </div>
     </main>
-    <main class="flex flex-1 flex-col items-center py-12 px-6 lg:px-40">
-        <div class="max-w-[1100px] w-full flex flex-col">
-            <!-- Header Section -->
-            <div class="text-center mb-16">
-                <span
-                    class="inline-block px-3 py-1 bg-primary/20 text-[#0d1b14] dark:text-primary text-xs font-bold uppercase tracking-widest rounded-full mb-4">
-                    Integrated Solutions
-                </span>
-                <h1
-                    class="text-[#0d1b14] dark:text-white tracking-tight text-3xl md:text-[42px] font-extrabold leading-tight mb-6">
-                    One Integrated Medical &amp; Diagnostic Solution for Your Practice
-                </h1>
-                <p
-                    class="text-[#4c9a73] dark:text-slate-400 text-lg md:text-xl font-normal leading-relaxed max-w-[800px] mx-auto">
-                    Streamline your clinic's operations with our dual-integrated approach to equipment and diagnostics.
-                    HIPAA compliant and US-certified solutions designed for high-trust medical environments.
-                </p>
-            </div>
-            <!-- Service Cards Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-                <!-- DME Card -->
-                <div
-                    class="bg-white dark:bg-[#162d21] rounded-xl overflow-hidden shadow-xl shadow-[#0d1b14]/5 flex flex-col border-t-4 border-primary transition-transform hover:-translate-y-1">
-                    <div class="h-56 w-full bg-center bg-no-repeat bg-cover relative"
-                        data-alt="Medical equipment including braces and blood glucose monitors"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwyGV6A_ThbA95C2IQB8qSnU3UEht3ol1hESGvdIcCkRVZPqc8GObC28JzzuQABIdt8lIWaMY3GZwasMNwU4ucJVOgXg4DNidUMfpoxa1BOwA6cdQp-2UnppHkpCsNgmSJI4qytOt3SxCguVhNgIs8GX4ADX0MW1tME4KNNrpPRvSMr6ZvPMi95RXD-3ZCvduh2qAcjqCYy9tZAe0MMPICskZmR6WGJbDU72JCG_BYJ-CnJvtnNacNdmd4HccYI5PQr4CxlNsXi_A");'>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                            <h3 class="text-white text-2xl font-bold">Durable Medical Equipment</h3>
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col grow">
-                        <p
-                            class="text-[#4c9a73] dark:text-primary/80 font-semibold mb-6 uppercase tracking-wider text-xs">
-                            Products &amp; Solutions</p>
-                        <ul class="space-y-4 flex-1 mb-8">
-                            <li class="flex items-center gap-3">
-                                <div
-                                    class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                    <span class="material-symbols-outlined text-lg">accessibility_new</span>
-                                </div>
-                                <span class="text-[#0d1b14] dark:text-white font-medium">Orthopedic Braces &amp;
-                                    Support</span>
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <div
-                                    class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                    <span class="material-symbols-outlined text-lg">glucose</span>
-                                </div>
-                                <span class="text-[#0d1b14] dark:text-white font-medium">Continuous Glucose Monitors
-                                    (CGM)</span>
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <div
-                                    class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                    <span class="material-symbols-outlined text-lg">monitor_heart</span>
-                                </div>
-                                <span class="text-[#0d1b14] dark:text-white font-medium">Remote Patient Monitoring
-                                    (RPM)</span>
-                            </li>
-                        </ul>
-                        <button
-                            class="w-full bg-primary text-[#0d1b14] py-4 rounded-lg font-bold text-sm tracking-wide hover:brightness-105 flex items-center justify-center gap-2 group">
-                            View DME Categories
-                            <span
-                                class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                        </button>
-                    </div>
-                </div>
-                <!-- Lab Services Card -->
-                <div
-                    class="bg-white dark:bg-[#162d21] rounded-xl overflow-hidden shadow-xl shadow-[#0d1b14]/5 flex flex-col border-t-4 border-primary transition-transform hover:-translate-y-1">
-                    <div class="h-56 w-full bg-center bg-no-repeat bg-cover relative"
-                        data-alt="Laboratory diagnostics with medical test tubes and equipment"
-                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsX0C97JF3FdCpEwen7GpOcJH61DmzQPWd18pgQsCYzH3bXSN1l_m7YxOvyuic_lXM9U7eAbtSiZFJcKdKE92eSQsu3niJj8PGgF9JDGY3iOocdulqLrSzSeSstGbROXaMDFiS_28tujEF4BH3EHf3mJvDjT0MslDVoZVu0Bwha7MDKNl9Cw39XyS29ei40JbwBS3gMTisPNP0TK9WA80xeGLTA2V2IxvyRfgbbTIS6T8FCtq76Z_g9dojYPbXPL4WCl7EfAxkuT0");'>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                            <h3 class="text-white text-2xl font-bold">Diagnostic Lab Services</h3>
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col grow">
-                        <p
-                            class="text-[#4c9a73] dark:text-primary/80 font-semibold mb-6 uppercase tracking-wider text-xs">
-                            Diagnostic Panels</p>
-                        <ul class="space-y-4 flex-1 mb-8">
-                            <li class="flex items-center gap-3">
-                                <div
-                                    class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                    <span class="material-symbols-outlined text-lg">biotech</span>
-                                </div>
-                                <span class="text-[#0d1b14] dark:text-white font-medium">UTI &amp; STI Comprehensive
-                                    Panels</span>
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <div
-                                    class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                    <span class="material-symbols-outlined text-lg">science</span>
-                                </div>
-                                <span class="text-[#0d1b14] dark:text-white font-medium">GI &amp; Digestive Health
-                                    Screening</span>
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <div
-                                    class="size-8 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                                    <span class="material-symbols-outlined text-lg">vaccines</span>
-                                </div>
-                                <span class="text-[#0d1b14] dark:text-white font-medium">Respiratory &amp; Viral Testing
-                                    Kits</span>
-                            </li>
-                        </ul>
-                        <button
-                            class="w-full bg-primary text-[#0d1b14] py-4 rounded-lg font-bold text-sm tracking-wide hover:brightness-105 flex items-center justify-center gap-2 group">
-                            View Lab Categories
-                            <span
-                                class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+    <x-services />
     <main class="flex-1">
         <!-- Hero/Headline Section -->
         <div class="max-w-[1200px] mx-auto px-4 pt-16 pb-10 text-center">
@@ -658,102 +535,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single Button / CTA -->
-            <div class="flex justify-center mt-8">
-                <button
-                    class="flex items-center gap-2 group text-[#0d1b12] dark:text-white font-bold text-sm tracking-wide bg-white dark:bg-[#1a3a24] px-8 py-3 rounded-full border border-[#e7f3eb] dark:border-[#24422d] shadow-sm hover:bg-primary hover:text-[#0d1b12] transition-all">
-                    <span>See all success stories</span>
-                    <span
-                        class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                </button>
-            </div>
         </div>
     </main>
-    <main
-        class="flex-1 flex flex-col items-center justify-center py-16 px-4 md:px-10 lg:px-40 bg-medical-blue dark:bg-background-dark/50">
-        <div class="max-w-[960px] w-full flex flex-col gap-12">
-            <!-- CTA Content -->
-            <div class="text-center flex flex-col items-center gap-4">
-                <h1
-                    class="text-[#0d1b12] dark:text-white tracking-tight text-3xl md:text-5xl font-extrabold leading-tight max-w-[800px]">
-                    Join Hundreds of US Clinics Using Our All-in-One Platform
-                </h1>
-                <p
-                    class="text-[#4c6b57] dark:text-gray-400 text-lg md:text-xl font-normal leading-relaxed max-w-[720px]">
-                    Streamline your workflow, ensure 100% patient compliance, and focus on care while we handle the
-                    logistics.
-                </p>
-            </div>
-            <!-- Contact/Demo Form -->
-            <div
-                class="bg-white dark:bg-background-dark p-8 md:p-12 rounded-2xl shadow-xl border border-[#e0eaf1] dark:border-[#1e3a29] w-full max-w-[800px] mx-auto">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                    <!-- Field 1 -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Doctor / Clinic Name</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">account_balance</span>
-                            <input
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-400"
-                                placeholder="Enter clinic name" type="text" />
-                        </div>
-                    </div>
-                    <!-- Field 2 -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Specialty</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">stethoscope</span>
-                            <select
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all text-gray-700 dark:text-gray-300 appearance-none">
-                                <option disabled="" selected="" value="">Select specialty</option>
-                                <option value="general">General Practice</option>
-                                <option value="cardiology">Cardiology</option>
-                                <option value="pediatrics">Pediatrics</option>
-                                <option value="dermatology">Dermatology</option>
-                            </select>
-                            <span
-                                class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">expand_more</span>
-                        </div>
-                    </div>
-                    <!-- Field 3 -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Professional Email</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">mail</span>
-                            <input
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-400"
-                                placeholder="doctor@clinic.com" type="email" />
-                        </div>
-                    </div>
-                    <!-- Field 4 -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Phone Number</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">call</span>
-                            <input
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-400"
-                                placeholder="(555) 000-0000" type="tel" />
-                        </div>
-                    </div>
-                </div>
-                <!-- CTA Button -->
-                <div class="flex flex-col items-center gap-4">
-                    <button
-                        class="w-full md:w-auto min-w-[280px] h-14 bg-primary text-[#0d1b12] text-lg font-extrabold rounded-xl shadow-lg shadow-primary/20 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group">
-                        <span>Book a Demo</span>
-                        <span
-                            class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
-                    </button>
-                    <p class="text-xs text-gray-500 flex items-center gap-1">
-                        <span class="material-symbols-outlined text-sm">lock</span>
-                        No credit card required. Private consultation.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </main>
+    <x-cta />
 </x-app-layout>

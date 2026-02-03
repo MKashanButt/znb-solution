@@ -25,14 +25,18 @@
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-4">
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                            Schedule a Demo
-                        </button>
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
-                            Learn More
-                        </button>
+                        <a href="/about-us">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
+                                See How It Works
+                            </button>
+                        </a>
+                        <a href="#learn-more">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
+                                Learn More
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <!-- Right Column -->
@@ -52,7 +56,7 @@
         </section>
 
         <!-- Features Section -->
-        <section class="py-20 lg:py-32 px-6 lg:px-20 bg-slate-50 dark:bg-background-dark">
+        <section class="py-20 lg:py-32 px-6 lg:px-20 bg-slate-50 dark:bg-background-dark" id="learn-more">
             <div class="max-w-7xl mx-auto text-center mb-16">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-navy-text dark:text-white">
                     Key Features of Principal Care Management
@@ -174,17 +178,6 @@
         </section>
 
         <!-- CTA Footer Section -->
-        <section class="py-20 lg:py-32 px-6 lg:px-20 bg-primary/10 dark:bg-primary/20 text-center">
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-navy-text dark:text-white mb-6">
-                Ready to Transform Your Clinic Operations?
-            </h2>
-            <p class="text-slate-600 dark:text-slate-200 text-lg mb-8">
-                Experience the power of principal care management with one centralized platform. Book a demo today.
-            </p>
-            <button
-                class="px-10 py-4 bg-primary text-white font-bold rounded-xl hover:shadow-lg hover:brightness-105 transition-all">
-                Book Your Demo
-            </button>
-        </section>
+        <x-cta />
     </main>
 </x-app-layout>

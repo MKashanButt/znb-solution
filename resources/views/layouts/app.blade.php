@@ -48,6 +48,10 @@
         body {
             font-family: 'Manrope', sans-serif;
         }
+
+        * {
+            scroll-behavior: smooth;
+        }
     </style>
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>

@@ -29,14 +29,18 @@
                     </div>
 
                     <div class="flex flex-wrap gap-4">
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                            Book a Demo
-                        </button>
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
-                            Meet the Team
-                        </button>
+                        <a href="/about-us">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
+                                See How It Works
+                            </button>
+                        </a>
+                        <a href="#leadership">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
+                                Meet the Team
+                            </button>
+                        </a>
                     </div>
 
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-4 pt-4 max-w-xl">
@@ -300,7 +304,7 @@
         </section>
 
         <!-- LEADERSHIP -->
-        <section class="py-20 lg:py-28 px-6 lg:px-20">
+        <section class="py-20 lg:py-28 px-6 lg:px-20" id="leadership">
             <div class="max-w-7xl mx-auto">
                 <div class="text-center mb-14 space-y-4">
                     <h2
@@ -369,28 +373,6 @@
         </section>
 
         <!-- CTA -->
-        <section class="py-20 lg:py-28 px-6 lg:px-20 bg-medical-blue dark:bg-background-dark/50">
-            <div class="max-w-6xl mx-auto text-center flex flex-col items-center gap-6">
-                <h2
-                    class="text-[#0d1b12] dark:text-white tracking-tight text-3xl md:text-5xl font-extrabold leading-tight max-w-[900px]">
-                    Want to Work With a Team That Moves Fast?
-                </h2>
-                <p class="text-[#4c6b57] dark:text-gray-400 text-lg md:text-xl max-w-2xl leading-relaxed">
-                    If you’re a clinic, provider group, or healthcare organization looking to simplify operations—
-                    we’d love to show you how it works.
-                </p>
-
-                <div class="flex flex-wrap justify-center gap-4 pt-2">
-                    <button
-                        class="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                        Book a Demo
-                    </button>
-                    <button
-                        class="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-white/60 dark:hover:bg-white/5 transition-all">
-                        Contact Us
-                    </button>
-                </div>
-            </div>
-        </section>
+        <x-cta />
     </main>
 </x-app-layout>

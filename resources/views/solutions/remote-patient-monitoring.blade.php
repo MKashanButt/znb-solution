@@ -32,15 +32,18 @@
                     </div>
 
                     <div class="flex flex-wrap gap-4">
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                            Book a Demo
-                        </button>
-
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
-                            Explore RPM Workflow
-                        </button>
+                        <a href="/about-us">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
+                                See How It Works
+                            </button>
+                        </a>
+                        <a href="#rpm-workflow">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
+                                Explore RPM Workflow
+                            </button>
+                        </a>
                     </div>
 
                     <div class="flex items-center gap-4 pt-4">
@@ -275,7 +278,7 @@
     </section>
 
     <!-- How It Works -->
-    <main class="flex-1 flex flex-col items-center py-16 px-4">
+    <main class="flex-1 flex flex-col items-center py-16 px-4" id="rpm-workflow">
         <div class="max-w-[960px] w-full text-center mb-12">
             <h1
                 class="text-[#0e131b] dark:text-white tracking-tight text-4xl md:text-[42px] font-extrabold leading-[1.15] pb-4">
@@ -449,91 +452,5 @@
     </main>
 
     <!-- CTA Form -->
-    <main
-        class="flex-1 flex flex-col items-center justify-center py-16 px-4 md:px-10 lg:px-40 bg-medical-blue dark:bg-background-dark/50">
-        <div class="max-w-[960px] w-full flex flex-col gap-12">
-
-            <div class="text-center flex flex-col items-center gap-4">
-                <h1
-                    class="text-[#0d1b12] dark:text-white tracking-tight text-3xl md:text-5xl font-extrabold leading-tight max-w-[800px]">
-                    Launch Your RPM Program in Weeks — Not Months
-                </h1>
-                <p
-                    class="text-[#4c6b57] dark:text-gray-400 text-lg md:text-xl font-normal leading-relaxed max-w-[720px]">
-                    Improve patient outcomes, increase adherence, and streamline follow-ups with our Remote Patient
-                    Monitoring platform.
-                </p>
-            </div>
-
-            <div
-                class="bg-white dark:bg-background-dark p-8 md:p-12 rounded-2xl shadow-xl border border-[#e0eaf1] dark:border-[#1e3a29] w-full max-w-[800px] mx-auto">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Doctor / Clinic Name</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">account_balance</span>
-                            <input
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-400"
-                                placeholder="Enter clinic name" type="text" />
-                        </div>
-                    </div>
-
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">RPM Focus Area</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">monitor_heart</span>
-                            <select
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all text-gray-700 dark:text-gray-300 appearance-none">
-                                <option disabled selected value="">Select focus area</option>
-                                <option value="hypertension">Hypertension / BP</option>
-                                <option value="diabetes">Diabetes / Glucose</option>
-                                <option value="cardiology">Cardiology / Heart Health</option>
-                                <option value="weight">Weight Management</option>
-                                <option value="general">General Monitoring</option>
-                            </select>
-                            <span
-                                class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">expand_more</span>
-                        </div>
-                    </div>
-
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Professional Email</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">mail</span>
-                            <input
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-400"
-                                placeholder="Enter email address" type="email" />
-                        </div>
-                    </div>
-
-                    <div class="flex flex-col gap-2">
-                        <label class="text-[#0d1b12] dark:text-white text-sm font-semibold">Phone Number</label>
-                        <div class="relative">
-                            <span
-                                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xl">call</span>
-                            <input
-                                class="w-full pl-10 pr-4 py-3 rounded-lg border border-[#cfe7d7] dark:border-[#1e3a29] bg-white dark:bg-[#162a1c] focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-400"
-                                placeholder="Enter phone number" type="tel" />
-                        </div>
-                    </div>
-
-                </div>
-
-                <button
-                    class="w-full bg-primary text-white py-4 rounded-lg font-bold text-sm tracking-wide hover:shadow-lg hover:shadow-primary/30 transition-all flex items-center justify-center gap-2 group">
-                    Request RPM Demo
-                    <span
-                        class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                </button>
-
-                <p class="text-xs text-slate-500 dark:text-slate-400 mt-4 text-center">
-                    HIPAA-safe workflow. No spam. Just a real demo with a real human.
-                </p>
-            </div>
-        </div>
-    </main>
+    <x-cta />
 </x-app-layout>

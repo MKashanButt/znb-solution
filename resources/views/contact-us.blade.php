@@ -28,14 +28,18 @@
                     </div>
 
                     <div class="flex flex-wrap gap-4">
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                            Book a Demo
-                        </button>
-                        <button
-                            class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
-                            Support Center
-                        </button>
+                        <a href="/about-us">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
+                                See How It Works
+                            </button>
+                        </a>
+                        <a href="#contact">
+                            <button
+                                class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-slate-50 dark:hover:bg-white/5 transition-all">
+                                Support Center
+                            </button>
+                        </a>
                     </div>
 
                     <!-- Contact Highlights -->
@@ -151,7 +155,8 @@
 
         <!-- CONTACT INFO CARDS -->
         <section
-            class="py-16 lg:py-24 px-6 lg:px-20 bg-slate-50 dark:bg-white/5 border-y border-slate-100 dark:border-white/10">
+            class="py-16 lg:py-24 px-6 lg:px-20 bg-slate-50 dark:bg-white/5 border-y border-slate-100 dark:border-white/10"
+            id="contact">
             <div class="max-w-7xl mx-auto">
                 <div class="text-center mb-14 space-y-4">
                     <h2 class="text-3xl md:text-4xl font-extrabold text-navy-text dark:text-white tracking-tight">
@@ -208,27 +213,6 @@
         </section>
 
         <!-- CTA -->
-        <section class="py-20 lg:py-28 px-6 lg:px-20 bg-medical-blue dark:bg-background-dark/50">
-            <div class="max-w-6xl mx-auto text-center flex flex-col items-center gap-6">
-                <h2
-                    class="text-[#0d1b12] dark:text-white tracking-tight text-3xl md:text-5xl font-extrabold leading-tight max-w-[900px]">
-                    Want a Walkthrough Before You Decide?
-                </h2>
-                <p class="text-[#4c6b57] dark:text-gray-400 text-lg md:text-xl max-w-2xl leading-relaxed">
-                    We’ll show you the workflow, answer questions, and help you launch without headaches.
-                </p>
-
-                <div class="flex flex-wrap justify-center gap-4 pt-2">
-                    <button
-                        class="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 bg-primary text-white text-base font-bold hover:shadow-lg hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5">
-                        Book a Demo
-                    </button>
-                    <button
-                        class="flex min-w-[200px] cursor-pointer items-center justify-center rounded-xl h-14 px-10 border-2 border-slate-200 dark:border-white/10 text-navy-text dark:text-white text-base font-bold hover:bg-white/60 dark:hover:bg-white/5 transition-all">
-                        View Who We Serve
-                    </button>
-                </div>
-            </div>
-        </section>
+        <x-cta />
     </main>
 </x-app-layout>
